@@ -1,53 +1,54 @@
 html,
 body {
-  height: 100%;
-  width: 100;
-  background-color: #020a13;
-  font-family: "Source Sans Pro", sans-serif;
+    height: 100%;
+    width: 100;
+    background-color: #020a13;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-.navbar{
-	background-color: #020a13;
-	margin-top: 2rem !important;
+.navbar {
+    background-color: #020a13;
+    margin-top: 2rem !important;
 }
 
-.navbar-brand{
-font-weight: 500;
-font-size: 1.4rem;
-color: #e1e1e1 !important;
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #e1e1e1 !important;
 }
 
-.navbar-nav>a{
-color: #e1e1e1 !important;
-font-weight: 300 !important;
-font-size: 1rem;
-margin-left: 1.3rem;
+.navbar-nav>a {
+    color: #e1e1e1 !important;
+    font-weight: 300 !important;
+    font-size: 1rem;
+    margin-left: 1.3rem;
 }
 
-.navbar-toggler{
-   border: 0;
+.navbar-toggler {
+    border: 0;
 }
 
-.navbar-nav>a:hover{
-text-decoration-line: underline;
+.navbar-nav>a:hover {
+    text-decoration-line: underline;
 }
 
 @media(max-width: 762px) .navbar-brand {
-  font-weight: 500;
-  color: #e1e1e1 !important;
+    font-weight: 500;
+    color: #e1e1e1 !important;
 }
+
 slide-right {
-  width: 100%;
-  overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 }
 
 .slide-right a {
-  animation: 1.6s slide-right 0.2s forwards;
-    transform:translateX(-160%);
+    animation: 1.6s slide-right 0.2s forwards;
+    transform: translateX(-160%);
 }
 
 @keyframes slide-right {
-  to {
-    transform:translateX(0%);
-  }
+    to {
+        transform: translateX(0%);
+    }
 }
