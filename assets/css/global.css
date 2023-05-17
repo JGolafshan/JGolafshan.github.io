@@ -4,11 +4,14 @@ body {
     width: 100;
     background-color: #020a13;
     font-family: "Source Sans Pro", sans-serif;
+    color: #e1e1e1 !important;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .navbar {
-    background-color: #020a13;
     margin-top: 2rem !important;
+    margin-bottom: 8rem;
 }
 
 .navbar-brand {
@@ -17,11 +20,28 @@ body {
     color: #e1e1e1 !important;
 }
 
+
+@media screen and (max-width: 768px){
+    .navbar{
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .navbar-brand {
+        font-weight: 500;
+    }
+
+    .jumbotron {
+        width: 100% !important;
+        margin: none !important;
+    }
+}
+
+
 .navbar-nav>a {
-    color: #e1e1e1 !important;
-    font-weight: 300 !important;
-    font-size: 1rem;
     margin-left: 1.3rem;
+    color: #e1e1e1;
 }
 
 .navbar-toggler {
@@ -30,11 +50,7 @@ body {
 
 .navbar-nav>a:hover {
     text-decoration-line: underline;
-}
-
-@media(max-width: 762px) .navbar-brand {
-    font-weight: 500;
-    color: #e1e1e1 !important;
+    color: #e1e1e1;
 }
 
 slide-right {
@@ -50,5 +66,99 @@ slide-right {
 @keyframes slide-right {
     to {
         transform: translateX(0%);
+    }
+}
+
+.jumbotron {
+    width: 55%;
+    margin: auto;
+    color: #e1e1e1;
+    background: none;
+}
+
+
+.jumbo-text {
+    font-size: 1rem !important;
+    line-height: 1.4rem;
+    width: auto;
+    font-weight: 100 !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer_button>a {
+    color: #e1e1e1;
+    text-decoration: none;
+    display: flex;
+}
+
+
+.socials>a {
+    color: #e1e1e1;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 1rem;
+}
+
+.animation>svg {
+    color: #e1e1e1: margin-left: 1rem;
+    display: block;
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 2s;
+    position: relative;
+
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 1%;
+    }
+
+    20% {
+        left: 1.44%;
+    }
+
+    30% {
+        left: 2.0736%;
+    }
+
+    50% {
+        left: 4%;
+    }
+
+    100% {
+        left: 1%;
+    }
+}
+
+
+.highlighted_word>button {
+    background-color: #0b151f;
+    color: #e1e1e1;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+
+.highlighted_word>button:hover {
+    background-color: #e03a3a;
+}
+
+
+body>.jumbotron {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
