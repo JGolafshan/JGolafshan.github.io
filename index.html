@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cyberpunk-text.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
     <title>Home | Joshua Golafshan</title>
 </head>
@@ -17,16 +18,17 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
-            <div class="slide-right d-block d-md-none">
-                <a class="navbar-brand d-block d-md-none" href="#">Joshua Golafshan</a>
+            <div class="slide-right">
+                <a class="navbar-brand d-block d-md-none" href="index.html">J D G</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">About</a>
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link d-block d-md-none" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link justify-content-right" aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
                     <a class="nav-link" href="#">Resume</a>
                     <a class="nav-link" href="#">Trading Dashbroad</a>
                 </div>
@@ -37,17 +39,18 @@
     <div class="p-5 mb-4 jumbotron">
         <div class="class=" p-5 mb-4">
             <div class"container-fluid py-5">
-                <h1 class="display-5 fw-bold">I'm Joshua David Golafshan</h1>
-                <p class="col-md-8 fs-4 jumbo-text">Coding the future one line at a time, I am making
+                
+                <div class="hero-container">
+    		<div class="environment"></div>
+                <h1 class="display-5 fw-bold hero glitch layers" data-text="Joshua Golafshan"><span>Joshua David Golafshan</span></h1>
+                <p class="col-md-8 fs-4 jumbo-text">Is coding the future one line at a time, I am making
                     <a aria-label="Go to mathematics Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">mathematics</button></a>
                     and
                     <a aria-label="Go to finance  Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">finance</button></a>
                     work for me and using my side projects to stay ahead of the curve.
                     I am constantly learning and growing in
-                    <a aria-label="Go to programming Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">programming</button></a>
-                    ,
-                    <a aria-label="Go to mathematics Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">mathematics</button></a>
-                    , and
+                    <a aria-label="Go to programming Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">programming</button></a>,
+                    <a aria-label="Go to mathematics Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">mathematics</button></a>, and
                     <a aria-label="Go to finance Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">finance</button></a>.
                     <br><br>Working with my hands to make magic happen on the internet. View my
                     <a aria-label="Go to Projects Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">Projects</button></a>,
@@ -55,7 +58,7 @@
                     <a aria-label="Go to Resume Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">Resumé</button></a>,
                     <a aria-label="Go to Contact Page" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">Contact Me</button></a>,
                     or send me an email at
-                    <a aria-label="Email" href="/projects" class="highlighted_word"><button type="button" tabindex="-1">JGolafshan@outlook.com</button></a>.
+                    <a aria-label="Email" class="highlighted_word"><button type="button" onclick="copyText()" tabindex="-1">JGolafshan@outlook.com</button></a>.
                 </p>
                 <footer class="footer_button">
                     <a aria-label="See More About Me" class="animation" href="#">
@@ -66,20 +69,22 @@
                     </a>
                 </footer>
                 <div class="socials">
-                    <a target="_blank" rel="noopener noreferrer" href="https://au.linkedin.com/in/joshua-golafshan-2b9a34215" aria-label="Go To Joshua Golafshan's LinkedIn Page" title="Linked In Page">
+                    <a target="_blank" Id="LinkedIn" rel="noopener noreferrer" href="https://au.linkedin.com/in/joshua-golafshan-2b9a34215" aria-label="Go To Joshua Golafshan's LinkedIn Page" title="Linked In Page">
                         <i class="bi bi-linkedin"></i>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/JGolafshan" aria-label="Go To Joshua Golafshan's Githun Page" title="Git Hub Page">
+                    <a target="_blank" Id="Github" rel="noopener noreferrer" href="https://github.com/JGolafshan" aria-label="Go To Joshua Golafshan's Github Page" title="Git Hub Page">
                         <i class="bi bi-github" href=""></i>
+                    </a>
+                    <a target="_blank" Id="StackOverflow" rel="noopener noreferrer" href="https://github.com/JGolafshan" aria-label="Go To Joshua Golafshan's Github Page" title="Git Hub Page">
+                        <i class="bi bi-stack-overflow"></i>
                     </a>
 
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
 </body>
-
 </html>
