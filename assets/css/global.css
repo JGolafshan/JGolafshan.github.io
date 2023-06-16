@@ -8,6 +8,7 @@ body {
     color: #e1e1e1 !important;
     font-size: 1rem;
     font-weight: 300;
+    overflow-y: auto;
 }
 
 .navbar {
@@ -221,4 +222,12 @@ body>.jumbotron {
     padding: 0;
 }
 
-
+.card-hover-text{
+    display:none;
+}
+.card:hover .card-text{
+    display:none;
+}
+.card:hover .card-hover-text{
+    display:block;
+}
