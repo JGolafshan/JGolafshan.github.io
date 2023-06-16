@@ -235,3 +235,11 @@ body>.jumbotron {
         opacity: 1;
     }
 }
+
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
