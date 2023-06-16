@@ -175,7 +175,9 @@ body>.jumbotron {
     animation-fill-mode: forwards;
 }
 
-
+.footer_button{
+    margin-top: 2rem;
+}
 .footer_button>a {
     color: #e1e1e1;
     text-decoration: none;
