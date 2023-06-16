@@ -3,7 +3,7 @@ body {
     height: 100%;
     min-height: 100%;
     width: 100%;
-    background-color: #020a13;
+    background: radial-gradient(#041536,#020a13);
     font-family: "Source Sans Pro", sans-serif;
     color: #e1e1e1 !important;
     font-size: 1rem;
@@ -147,28 +147,6 @@ slide-right {
     margin-bottom: 2rem;
 }
 
-.highlighted_word>button {
-    background-color: #0b151f;
-    color: #e1e1e1;
-    marging: none;
-    padding: none;
-    border: 0;
-    border-radius: 5px;
-
-    -webkit-transition: background-color 900ms linear;
-    -ms-transition: background-color 900ms linear;
-    transition: background-color 900ms linear;
-}
-
-.highlighted_word>button:hover {
-    background-color: #DE3163;
-    -webkit-transition: background-color 900ms linear;
-    -ms-transition: background-color 900ms linear;
-    transition: background-color 900ms linear;
-}
-
-}
-
 body>.jumbotron {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -237,7 +215,6 @@ body>.jumbotron {
         opacity: 1;
     }
 }
-
 
 .container {
     margin: 0;
