@@ -3,7 +3,7 @@ body {
     height: 100%;
     min-height: 100%;
     width: 100%;
-    background: radial-gradient(#041536,#020a13);
+    background: radial-gradient(#030f26,#020a13);
     font-family: "Source Sans Pro", sans-serif;
     color: #e1e1e1 !important;
     font-size: 1rem;
@@ -12,8 +12,8 @@ body {
 }
 
 .navbar {
-    margin-top: 2rem !important;
-    margin-bottom: 8rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 5rem;
 }
 
 .navbar-brand {
@@ -144,8 +144,7 @@ slide-right {
     line-height: 2.3;
     width: auto;
     font-weight: 100 !important;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.25rem;
 }
 
 body>.jumbotron {
@@ -163,10 +162,14 @@ body>.jumbotron {
     display: flex;
 }
 
+.socials{
+    margin-top: 1rem;
+}
+
 .socials>a {
     color: #e1e1e1;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     margin-right: 1rem;
     padding: 0.1rem;
 }
@@ -222,11 +225,20 @@ body>.jumbotron {
     padding: 0;
 }
 
+.card{
+    margin-top: 1.5rem;
+}
+
+.card-body{
+    height: 10rem;
+}
+
+
 .card-hover-text{
     display:none;
 }
 .card:hover .card-text{
-    display:none;
+    display:block;
 }
 .card:hover .card-hover-text{
     display:block;
