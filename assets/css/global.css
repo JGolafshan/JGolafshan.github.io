@@ -124,6 +124,10 @@ body {
     border: 0;
 }
 
+.bi-x-lg{
+  font-size:25px;
+}
+
 slide-right {
     width: 100%;
     overflow: hidden;
@@ -184,10 +188,6 @@ body>.jumbotron {
     color: #e1e1e1;
     text-decoration: none;
     display: flex;
-}
-
-.socials{
-    margin-top: 1rem;
 }
 
 .socials>a {
