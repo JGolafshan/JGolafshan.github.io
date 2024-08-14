@@ -368,7 +368,7 @@ function skills() {
             $('.skillbar').each(function () {
                 $(this).find('.skillbar-bar').animate({
                     width: $(this).attr('data-percent')
-                }, 3500);
+                }, 2500);
             });
         }
     }
