@@ -664,6 +664,7 @@ canvas.particles-js-canvas-el {
   z-index: 10;
   position: relative;
   box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+  background-color: #eee;
 }
 
 .hero-03 .hero-image img {
@@ -2350,10 +2351,6 @@ canvas.particles-js-canvas-el {
 
 .arshia-dark .hero-03 .personal-image img {
   box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
-}
-
-.hero-03 .personal-image img {
-  background-color: #eee;
 }
 
 .arshia-dark .testimonial .owl-carousel .testimonial-image::before, .arshia-dark .skill-box .skillbar,
