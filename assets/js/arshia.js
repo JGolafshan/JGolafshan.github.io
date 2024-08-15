@@ -124,7 +124,7 @@ function smoothScroll(){
 
     "use strict";
 
-    $('.header .navbar-nav a, .to-contact, .scroll-down a').on('click', function(event) {
+    $('.header .navbar-nav a, .to-contact, .navbar-brand, .use_smooth_scroll, .scroll-down a').on('click', function(event) {
         var $anchor = $(this);
         $root.stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 60
