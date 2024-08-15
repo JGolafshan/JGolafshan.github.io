@@ -2352,6 +2352,10 @@ canvas.particles-js-canvas-el {
   box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
 }
 
+.hero-03 .personal-image img {
+  background-color: #eee;
+}
+
 .arshia-dark .testimonial .owl-carousel .testimonial-image::before, .arshia-dark .skill-box .skillbar,
 .arshia-dark .blog-item:before, .arshia-dark .blog-image, .arshia-dark .testimonial .owl-carousel .testimonial-image, .arshia-dark.flat-demo .blog-image,
 .arshia-dark .blog-single .modal-content, .arshia-dark .portfolio-single .modal-content {
@@ -2519,6 +2523,7 @@ canvas.particles-js-canvas-el {
   box-shadow: none;
   background-color: transparent;
   padding: 0;
+  background-color: #eee;
 }
 
 .flat-demo .services .image-border .box-hover-border {
@@ -3152,5 +3157,4 @@ canvas.particles-js-canvas-el {
     display: none !important;
   }
 
-}
-*/
+}*/
