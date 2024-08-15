@@ -2797,7 +2797,7 @@ canvas.particles-js-canvas-el {
 /*-----------------------------
   Dark Media (IOS, MAC & ...)
 -----------------------------*/
-
+/*
 @media (prefers-color-scheme: dark) {
 
   .header-sticky {
@@ -3153,3 +3153,4 @@ canvas.particles-js-canvas-el {
   }
 
 }
+*/
