@@ -149,71 +149,13 @@
             </div>
         </section>
         <!--    About End    -->
-        <!--  Skill Start  -->
-        <section id="skills" class="section py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-content mb-4">
-                            <h2 class="base-color"> Skills</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="skill-boxes">
-                            <div class="row">
-                                <!-- Skill -->
-                                <div class="col-lg-6">
-                                    <div class="skill-box">
-                                        <div class="skillbar clearfix" data-percent="95%">
-                                            <div class="skillbar-title"><span>Python</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">95%</div>
-                                        </div>
-                                        <div class="skillbar clearfix" data-percent="80%">
-                                            <div class="skillbar-title"><span>R - Programming Language</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">80%</div>
-                                        </div>
-                                        <div class="skillbar clearfix " data-percent="70%">
-                                            <div class="skillbar-title"><span>Java</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">70%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="skill-box">
-                                        <div class="skillbar clearfix" data-percent="90%">
-                                            <div class="skillbar-title"><span>Microsoft Suite</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">90%</div>
-                                        </div>
-                                        <div class="skillbar clearfix " data-percent="85%">
-                                            <div class="skillbar-title"><span>SQL (MySql | SQLite3)</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">85%</div>
-                                        </div>
-                                        <div class="skillbar clearfix" data-percent="55%">
-                                            <div class="skillbar-title"><span>Github</span></div>
-                                            <div class="skillbar-bar fill-skillbar"></div>
-                                            <div class="skill-bar-percent">55%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--   Skill End   -->
         <!-- Portfolio Start -->
         <section id="portfolio" class="section portfolio py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-content mb-4">
-                            <h2 class="base-color">Projects</h2>
+                            <h2 class="base-color">My portfolio</h2>
                         </div>
                     </div>
                 </div>
@@ -221,33 +163,38 @@
                     <!--   Portfolio Filters   -->
                     <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 portfolio-filter">
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter="*" class="pill-button active" aria-label="Filter by: All">All</a>
+                            <a href="#" data-filter="*" class="pill-button active">All</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".python" class="pill-button" aria-label="Filter by: python projects">Python</a>
+                            <a href="#" data-filter=".python" class="pill-button">Python</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".social_media" class="pill-button" aria-label="Filter by: social media">Social Media</a>
+                            <a href="#" data-filter=".social_media" class="pill-button">Social Media</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".api" class="pill-button" aria-label="Filter by: api">API</a>
+                            <a href="#" data-filter=".api" class="pill-button">API</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".other" class="pill-button" aria-label="Filter by: other">Other</a>
+                            <a href="#" data-filter=".models" class="pill-button">Models</a>
+                        </li>
+                        <li class="button-border list-inline-item">
+                            <a href="#" data-filter=".other" class="pill-button">Others</a>
                         </li>
                     </ul>
                 </div>
-                <div class="portfolio-items row">
+                <div class="portfolio-items row" style="position: relative; height: 585px;">
                     <!-- Item 01 -->
-                    <div class="col-lg-4 portfolio-item python social_media">
+                    <div class="col-lg-4 portfolio-item python social_media" style="position: absolute; left: 0px; top: 0px;">
                         <div class="image-border">
                             <div class="portfolio-item-content">
-                                <img src="./assets/img/wsb_project.webp" loading="lazy" alt="/" class="img-fluid">
+                                <img src="assets/img/wsb_project.webp" alt="Wall Street Social Graph" class="img-fluid">
                                 <div class="img-overlay text-center">
                                     <div class="img-overlay-content">
                                         <div class="portfolio-icon">
-                                            <a href="https://github.com/JGolafshan/WallStreetSocial"  target="_blank" aria-label="View project repo"><i class="lni-github-original"></i></a>
-                                            <a href="./assets/img/wsb_project.webp" aria-label="expand image" class="js-zoom-gallery"><i class="lni-search"></i></a>
+                                            <a href="javascript:void();" type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></a>
+                                            <a href="assets/img/wsb_project.webp" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
                                         </div>
                                         <h5 class="mt-3 mb-0">Wall Street Social</h5>
                                     </div>
@@ -255,17 +202,18 @@
                             </div>
                         </div>
                     </div>
-                    
                     <!-- Item 02 -->
-                    <div class="col-lg-4 portfolio-item python other">
+                    <div class="col-lg-4 portfolio-item python other" style="position: absolute; left: 380px; top: 0px;">
                         <div class="image-border">
                             <div class="portfolio-item-content">
-                                <img src="./assets/img/SCMS_image.webp" loading="lazy" alt="Supply Chain Management System Image" class="img-fluid">
+                                <img src="assets/img/SCMS_image.webp" alt="/" class="img-fluid">
                                 <div class="img-overlay text-center">
                                     <div class="img-overlay-content">
                                         <div class="portfolio-icon">
-
-                                            <a href="./assets/img/SCMS_image.webp" aria-label="expand image" class="js-zoom-gallery"><i class="lni-search"></i></a>
+                                            <a href="javascript:void();" type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></a>
+                                            <a href="assets/img/SCMS_image.webp" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
                                         </div>
                                         <h5 class="mt-3 mb-0">Supply Chain Management System</h5>
                                     </div>
@@ -274,15 +222,17 @@
                         </div>
                     </div>
                     <!-- Item 03 -->
-                    <div class="col-lg-4 portfolio-item python social_media api">
+                    <div class="col-lg-4 portfolio-item python api social_media" style="position: absolute; left: 760px; top: 0px;">
                         <div class="image-border">
                             <div class="portfolio-item-content">
-                                <img src="./assets/img/tan.webp" loading="lazy" alt="Twitter Automated News Image" class="img-fluid">
+                                <img src="assets/img/tan.webp" alt="/" class="img-fluid">
                                 <div class="img-overlay text-center">
                                     <div class="img-overlay-content">
                                         <div class="portfolio-icon">
-                                            <a href="https://github.com/JGolafshan/TAN" target="_blank" aria-label="View project repo"><i class="lni-github-original"></i></a>
-                                            <a href="./assets/img/tan.web" aria-label="expand image" class="js-zoom-gallery"><i class="lni-search"></i></a>
+                                            <a href="javascript:void();" type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></a>
+                                            <a href="assets/img/tan.webp" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
                                         </div>
                                         <h5 class="mt-3 mb-0">Twitter Automated News</h5>
                                     </div>
@@ -290,24 +240,35 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="portfolio-items row">
                     <!-- Item 04 -->
-                    <div class="col-lg-4 portfolio-item python api">
+                    <div class="col-lg-4 portfolio-item python api" style="position: absolute; left: 0px; top: 292px;">
                         <div class="image-border">
                             <div class="portfolio-item-content">
-                                <img src="./assets/img/keno_image" loading="lazy" alt="/" class="img-fluid">
+                                <img src="assets/img/keno_image" alt="/" class="img-fluid">
                                 <div class="img-overlay text-center">
                                     <div class="img-overlay-content">
                                         <div class="portfolio-icon">
-                                            <a href="https://github.com/JGolafshan/keno-api" target="_blank" aria-label="View project repo"><i class="lni-github-original"></i></a>
-                                            <a href="./assets/img/keno_image" aria-label="expand image" class="js-zoom-gallery"><i class="lni-search"></i></a>
+                                            <a href="javascript:void();" type="button" data-toggle="modal" data-target="#portfolio-single"><i class="lni-link"></i></a>
+                                            <a href="assets/img/keno_image" class="js-zoom-gallery">
+                                                <i class="lni-search"></i>
+                                            </a>
                                         </div>
-                                        <h5 class="mt-3 mb-0">Keno API</h5>
+                                        <h5 class="mt-3 mb-0">Keno API </h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-center pt-2">
+                        <div class="button-border d-inline-block mr-2 mr-sm-4">
+                            <button class="pill-button showMore" id="showMore">Show More</button>
+                            <span id="showMore-initials" class="d-none" data-initial="3" data-next="3"></span>
+                        </div>
+                        <!-- <div class="button-border d-inline-block">
+                            <a href="portfolio.html" class="pill-button">Portfolio Page</a>
+                        </div> -->
                     </div>
                 </div>
             </div>
