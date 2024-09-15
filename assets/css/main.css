@@ -1428,6 +1428,12 @@ canvas.particles-js-canvas-el {
   object-fit: cover; /* Ensures images cover the area without distortion */
 }
 
+.fixed-size-large {
+  width: 100%; /* Ensures image scales to the width of its container */
+  height: 500px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
 .portfolio .portfolio-item-content::before {
   content: "";
   position: absolute;
